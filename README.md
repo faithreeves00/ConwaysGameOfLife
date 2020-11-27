@@ -4,9 +4,13 @@ This project is a simulation of John Conway’s Game of Life. Conway's simulatio
 The Game of Life rules are:
 
 • If a cell is occupied but has no more than one occupied neighbor, then it is empty in the next generation. 
+
 • If a cell is occupied and has four or more occupied neighbors, then it is empty in the next generation. 
-• An occupied cell with either two or three occupied neighbors remains occupied in the next generation. 
+
+• An occupied cell with either two or three occupied neighbors remains occupied in the next generation.
+
 • An empty cell is occupied in the next generation if it has exactly three occupied neighbors. 
+
 • All changes in occupancy take place at the same time, so a cell that will become empty may influence another cell to become occupied.
 
 # This program will show how a given initial configuration will change over a series of generations.
